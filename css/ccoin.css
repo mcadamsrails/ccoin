@@ -1,0 +1,237 @@
+/*CSS Sheet for CCOIN.com
+======================================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800,300);
+
+/*General Styles
+======================================*/
+body{
+	background-color: #FFF;
+	background-image: url(../img/white_bed_sheet.png);
+	background-repeat: repeat;
+	font-size:17px;
+	
+}
+p{
+	font-family: 'Open Sans', sans-serif;}
+	
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.container-fluid{
+	padding:0;}
+.container-fluid .row{margin:0;}	
+
+ .white{
+	margin:10px auto;
+	background-color:#FFF;
+	min-height:400px;
+}
+
+
+button::-moz-focus-inner {
+  border: 0;
+}
+a, a:active, a:focus {
+outline: none;
+}
+
+.formrowmargin{
+	margin-left:-70px;
+	margin-right:auto;
+}
+
+.help-block{background:url(../img/error.png) left no-repeat;}
+#contactForm ul{color:#F00;list-style:none;}
+
+/*Header
+======================================*/
+#siteHeader {
+	padding-top: 10px;
+	margin-top:20px;
+	/*background-color:#CCC;*/
+}
+.navbar {
+	margin-bottom:0;
+	border-radius:0;
+}
+.navbar-default {border:none;background-color:transparent;}
+.navbar-default .navbar-nav > li > a{
+	color:#31B0D5;}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#035b68;
+	}	
+.navbar-default .navbar-nav > li > a:hover:after{
+	content: "";
+    border-bottom: 3px solid #035b68;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+}	
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color:transparent;
+	color:#035b68;
+}
+.navbar-default .navbar-nav > .active > a{
+	color:#058699;
+	background-color:transparent;
+	}	
+.navbar-default .navbar-nav > .active > a:after{
+	content: "";
+    border-bottom: 3px solid #058699;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+}	
+.nav > li > a {
+	font-size:18px;}
+.fa.fa-wrench{
+	padding-right:5px;
+	}
+/*Main Content
+======================================*/
+.hero{
+	background-image:url(../img/mat2.jpg);
+	background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+	max-width:100%;
+	height:450px;
+}
+.slogan{
+	position:relative;
+	top:15%;
+	left:25%;
+	width:50%;
+	text-align:center;
+	/*background-image: url(../img/transpBlue50.png);
+	background-repeat: repeat;*/
+	background-color:rgba(49, 176, 213,0.5);
+	padding:5px;
+	color:#FFF;
+	font-size:28px;
+}
+@media screen and (max-width:1020px){
+  .slogan {font-size: 20px}
+}
+@media screen and (max-width:640px){
+  .slogan {font-size: 14px}
+}
+.tab-pane{min-height:200px;}
+/*Hover Caption Effects
+============================*/
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;	
+	list-style: none;
+	text-align: center;
+}
+.grid img{
+	margin:0 auto;}
+	
+/*Services
+============================*/	
+.nav-tabs {
+    border-bottom: 1px solid #5BC0DE;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #035b68;
+    cursor: default;
+    background-color: #FFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5BC0DE #5BC0DE transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+	
+/*Testimonials
+============================*/	
+.testimonial {
+    margin: 0;
+    background: #FFF;
+    padding: 10px 50px;
+    position: relative;
+    font-family: Georgia, serif;
+    color: #666;
+    border-radius: 5px;
+    font-style: italic;
+    text-shadow: 0 1px 0 #ECFBFF;
+}
+
+.testimonial:before, .testimonial:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: #31B0D5;
+    font-style: normal;
+}
+
+.testimonial:before {
+    top: 0;
+    left: 10px;
+}
+
+.testimonial:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+}	
+
+/*Footer
+======================================*/
+footer{
+	color:white;
+	background-color:#fff;
+	background-image:url(../img/design-footer-475.png) ;
+	height:250px;
+	padding-top:35px;
+	text-align:center;
+}
+.continueT {
+    color: #fff;
+    margin-bottom: 10px;
+    background-image:url(../img/footer-bg-line.png);
+    background-position: center center;
+    background-repeat: repeat-x;
+	text-align:center;
+}
+.continueT p {
+    font-size: 22px;
+    font-family: "museo_sans900",Helvetica,Arial,sans-serif;
+    background-color: #363636;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px;
+	text-align:center;
+}
+.secondNav{margin: 0px 0 0 -50px;
+  left: 50%;}
+ul#secondNav {
+    margin:auto;s
+    float: left;
+    display:inline-block;
+}
+ul#secondNav li {
+    float: none;
+    display: inline;
+    border-right: 1px solid #CCC;
+    padding: 0px 7px;
+}
+ul#secondNav li.last{border:none;}
+ul#secondNav li a{
+	color:#43BEFA;
+}
+ul#secondNav li a:hover{
+	text-decoration:none;
+	color:#c2f5fd;
+}
