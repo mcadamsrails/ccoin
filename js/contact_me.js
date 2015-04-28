@@ -13,15 +13,15 @@ submitError: function($form, event, errors) {
 submitSuccess: function($form, event) {
 event.preventDefault(); // prevent default submit behaviour
 // get values from FORM
-var Name = $("input#Name").val();
-var property = $("input#property").val();
-var BillingAddress = $("textarea#BillingAddress").val();
-var Floor = $("input#Floor").val();
-var MachineType = $("input#MachineType").val();
-var MachineLocation = $("textarea#MachineLocation").val();
-var description = $("textarea#description").val();
-var email = $("input#email").val();
-var daytime = $("input#daytime").val();
+var Name = $("input#Name").val(),
+    property = $("input#property").val(),
+    BillingAddress = $("textarea#BillingAddress").val(),
+    Floor = $("input#Floor").val(),
+    MachineType = $("input#MachineType").val(),
+    MachineLocation = $("textarea#MachineLocation").val(),
+    description = $("textarea#description").val(),
+    email = $("input#email").val(),
+    daytime = $("input#daytime").val();
 
 
 var Name = Name; // For Success/Failure Message
